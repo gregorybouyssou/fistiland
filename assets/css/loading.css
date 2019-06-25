@@ -10,7 +10,7 @@ p{
 }
 
 body{ 
-    background-color: rgb(22, 21, 21);
+    background-image: url(../img/entree_fistiland.jpg);
     color: white;
 }
    
@@ -98,6 +98,9 @@ body{
     .monbouton{
         margin: auto;
         margin-top: 5px;
+    }
+    .skills{
+        margin: 0 auto 10px auto !important;
     }
 }
 
