@@ -1,0 +1,10 @@
+.load .skills{
+    height: 50px;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.skill{
+    height: 48px;
+    background-color: black;
+}

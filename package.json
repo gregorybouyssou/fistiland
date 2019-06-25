@@ -1,0 +1,19 @@
+{
+  "name": "fistiland",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregorybouyssou/fistiland.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregorybouyssou/fistiland/issues"
+  },
+  "homepage": "https://github.com/gregorybouyssou/fistiland#readme"
+}
