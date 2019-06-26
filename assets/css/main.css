@@ -1,3 +1,88 @@
+body{
+    z-index: 0;
+    
+}
+.videoHeader{
+    position: relative
+    
+}
+video{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom-left-radius: 200% 500px;
+    border-bottom-right-radius: 200% 500px;
+}
+.numvert{
+
+}
+
+.logo img{
+    height: 100px;
+    width: 150px;
+    display: block;
+    margin: auto;
+   
+}
+.login{
+    position: absolute;
+
+}
+.nav ul{
+    margin: 50px auto;
+    font-size: 1.5em;
+    
+}
+
+.nav ul li{
+
+    float: left;
+    list-style: none;
+    padding: 0 30px;
+}
+
+h1{
+    text-align: center;
+}
+.bouton{
+    display: inline;
+       background-color:red;  
+}
+.mybuttons{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.bouton button{
+    background-color: rgba(255, 255, 255, 0);
+    width: 200px;
+    height: 35px;
+    border-radius: 50px;
+
+}
+.bouton button:hover{
+    background-color: white;
+    
+}
+
+
+#vide{
+    height: 800px;
+}
+.defileParent{
+    background-color: aqua;
+}
+
 .carousel{
     margin: auto !important;
+}
+.carousel-inner .card img{
+    border-bottom-left-radius: 200px 50px;
+    border-bottom-right-radius: 200px 50px;
+}
+.card{
+    text-align: center;
+    margin: auto;
 }
