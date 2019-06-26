@@ -12,20 +12,21 @@ let countFisti = 130
 fisti.style.right = "-" + countFisti + "%"
 
 let count = 5
-let MyRandom = Math.random() * 15
+
 let p = setInterval(function(){
-    MyRandom = Math.random() * 15
-    console.log(MyRandom)
-    count++
-    countFisti--
-    if(count === 100){
+    let e = Math.round(Math.random() * 1.2)
+    count += e
+    countFisti -= e
+    if(count >= 100){
+        count = 100
         clearInterval(p)
         bouton.style.display = "block"
     }
+    console.log(countFisti)
     pourcentage.innerHTML = count + '%'
     skillbar.style.width = count + '%'
     fisti.style.right = "-" + countFisti + "%"
-},1000/MyRandom)
+},1000/16)
 
 
 

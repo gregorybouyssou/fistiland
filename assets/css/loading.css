@@ -39,13 +39,12 @@ body{
 .load .skills{
     height: 50px;
     width: 80%;
-    border: 2px solid yellow;
     border-radius: 3px;
     margin: auto;
 }
 .skill{
     height: 48px;
-    background-color: yellow;
+    background-color: rgb(249, 186, 0);
 }
 .fisti{
     position: absolute;
@@ -53,7 +52,7 @@ body{
     display: none;
 }
 .message{
-    background-color: yellow;
+    background-color: rgb(249, 186, 0);
     color: black;
     padding: 30px 20px;
     width: 80%;
@@ -101,6 +100,9 @@ body{
     }
     .skills{
         margin: 0 auto 10px auto !important;
+    }
+    .skill {
+        height: 30px;
     }
 }
 
