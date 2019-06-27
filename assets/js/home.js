@@ -14,6 +14,13 @@ let linkInfos = select(".infos")
 let linkServices = select(".services")
 let linkAbout = select(".about")
 
+let clignote = select('.clignote h5')
+console.log(clignote)
+
+let i = setInterval(function(){
+    clignote.classList.toggle('clignot')
+}, 1000)
+
 for(let i = 0; i < link.length; i++){
     link[i].style.cursor = "pointer"
     let p = link[i].addEventListener("click", function(e){

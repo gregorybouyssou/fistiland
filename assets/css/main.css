@@ -7,10 +7,22 @@ font-family: 'Kaushan Script', cursive;
 font-family: 'Rock Salt', cursive;
 */
 
+.clignot{
+    
+    text-shadow: red 2px 0px 8px;
+    font-weight: bold
+}
+
+
 body{
     z-index: 0;
+    background-image: url(../img/bg_main.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
     
 }
+
 button{
     border: none !important;
     box-shadow: rgba(0, 0, 0, 0.51) 2px 2px 3px;
@@ -147,19 +159,54 @@ h1{
     color: rgb(254, 254, 73);
 }
 #vide{
-    height: 800px;
+    height: 355px;
 }
 .defileParent{
-    background-color: aqua;
+    background-color: rgb(102, 144, 246);
+    color: white;
+    height: 85px;
+    border-radius: 20px;
+    margin-top: 32px;
+    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+
+}
+.defileParent .defile{
+    margin-top: 10px;
+    
 }
 .carousel{
     margin: auto !important;
+    
+   
+}
+.carousel-inner{
+    border-radius: 20px;
+    margin-top: 200px;
+}
+.carousel-inner .carousel-item h5{
+    font-size: 3em;
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+}
+.carousel-inner .carousel-item p{
+    font-size: 1.5em;
 }
 .carousel-inner .card img{
     border-bottom-left-radius: 200px 50px;
     border-bottom-right-radius: 200px 50px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
 }
 .card{
     text-align: center;
-    margin: auto;
+    margin: 200px auto ;
+    border-radius: 20px;
+    background-color: rgb(254, 234, 17)
+
+}
+.card .btn {
+    background-color: rgb(99, 142, 254);
+    border: 0;
 }
