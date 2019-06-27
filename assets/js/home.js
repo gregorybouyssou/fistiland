@@ -25,25 +25,25 @@ for(let i = 0; i < link.length; i++){
     link[i].style.cursor = "pointer"
     let p = link[i].addEventListener("click", function(e){
         if(e.explicitOriginalTarget.innerHTML === "Infos Légales"){
-            linkInfos.classList.add("active")
-            linkServices.classList.remove("active")
-            linkAbout.classList.remove("active")
+            linkInfos.classList.add("myactive")
+            linkServices.classList.remove("myactive")
+            linkAbout.classList.remove("myactive")
             infos.style.display = "block"
             services.style.display = "none"
             about.style.display = "none"
         }
         if(e.explicitOriginalTarget.innerHTML === "Services"){
-            linkInfos.classList.remove("active")
-            linkServices.classList.add("active")
-            linkAbout.classList.remove("active")
+            linkInfos.classList.remove("myactive")
+            linkServices.classList.add("myactive")
+            linkAbout.classList.remove("myactive")
             infos.style.display = "none"
             services.style.display = "block"
             about.style.display = "none"
         }
         if(e.explicitOriginalTarget.innerHTML === "A propos"){
-            linkInfos.classList.remove("active")
-            linkServices.classList.remove("active")
-            linkAbout.classList.add("active")
+            linkInfos.classList.remove("myactive")
+            linkServices.classList.remove("myactive")
+            linkAbout.classList.add("myactive")
             infos.style.display = "none"
             services.style.display = "none"
             about.style.display = "block"

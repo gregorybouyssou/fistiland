@@ -87,8 +87,8 @@ video{
     padding-top: 50px;
 }
 .logo img{
-    height: 100px;
-    width: 150px;
+    height: 150px;
+    width: 200px;
     display: block;
     margin: auto;
 }
@@ -210,3 +210,242 @@ h1{
     background-color: rgb(99, 142, 254);
     border: 0;
 }
+footer{
+    
+    background-color: rgba(245, 245, 245, 0.5);
+    width: 90%;
+    margin: 200px auto 10px auto;
+    padding: 20px 1%;
+    border-radius: 8px;
+    box-shadow: rgb(0, 0, 0, 0.8) 8px 8px 6px
+}
+footer .row{
+    text-align: center;
+}
+footer p{
+    font-size: 3em;
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+}
+footer a{
+    display: block;
+    font-size: 1.5em;
+    padding: 10px 0;
+}
+.network{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+   
+.network a{
+    font-size:2.5em;
+    margin: 5px 25px 25px 25px;
+   
+}
+#suivie{
+    margin:0;
+    font-size: 0.7em;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.copy{
+    text-align: center;
+    color: rgb(163, 163, 163);
+    margin: 30px auto 50px auto;
+}
+
+@media only screen and (max-width: 740px){   
+    .numvert{
+        font-size: 0.9em;
+    }
+
+    .log{
+        font-size: 0.9em;
+    }
+
+    .sub{
+        font-size: 0.9em;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .nav{
+        margin: 0;
+    }
+
+    .nav ul{
+        padding: 0;
+        display: inline;
+        font-size: 0.8em;
+        margin: 40% 0 0 0;
+    }
+
+    .nav ul li{
+        padding: 0 15px 0 15px;
+    }
+
+    .videoHeader{
+        display: none;
+    }
+
+    h1{
+        font-size: 2.2em;
+        margin: 0;
+        padding: 120px 0 120px 0;
+    }
+
+    .bouton{   
+        font-size: 1em;
+    }
+
+    .mybuttons{
+        display: block;
+        width: 60%;
+        margin: 5px auto;
+    }
+
+    #vide{
+        display: none;
+    }
+
+    .defileParent{
+        display: none;
+    }
+
+    .carousel{
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .card{
+        margin: 0 auto 25px auto;
+        padding: 0;
+    }
+
+    .card img{
+        display: none;
+    }
+
+    .card .card-body .card-title{
+        font-size: 1.8em;
+    }
+
+    .card .card-body .card-text{
+        font-size: 1.1em;
+    }
+
+    .card .card-body a{
+        font-size: 0.9em;
+    }
+
+    footer{
+        margin: 110px auto 30px auto;
+    }
+
+    footer p{
+        font-size: 1em;
+    }
+
+    footer a{
+        font-size: 0.9em;
+    }
+
+    #suivie p{
+        font-size: 1.5em;
+        margin: 0;
+    }
+
+    .network a{
+        font-size: 1.4em;
+        margin: auto;
+    }
+
+    .copy p{
+        font-size: 0.7em;
+        margin: 0;
+    }
+};
+
+@media only screen and (max-width: 1600px){
+    .logo{
+        display: none;
+    }
+
+    .nav{
+        margin: 0;
+    }
+
+    .nav ul{
+        font-size: 1.2em;
+        margin: 70% auto 10% auto;
+    }
+
+    .numvert{
+        font-size: 1em;
+    }
+
+    .log{
+        font-size: 1em;
+    }
+
+    .sub{
+        font-size: 1em;
+    }
+
+    h1{
+        font-size: 2.5em;
+    }
+
+    button{   
+        font-size: 1.1em;
+    }
+
+    #vide{
+        display: none;
+    }
+
+    .defileParent{
+        margin: 130px 0 0 0;
+        font-size: 0.7em;
+        padding: 10px 0 0 0;
+    }
+
+    .card{
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    footer{
+        margin: 150px auto 10px auto;
+    }
+
+    footer p{
+        font-size: 1.8em;
+    }
+
+    footer a{
+        font-size: 1.2em;
+    }
+
+    #suivie p{
+        font-size: 1.9em;
+        margin: 0;
+    }
+
+    .network a{
+        font-size: 1.7em;
+        margin: auto;
+    }
+
+    .copy p{
+        font-size: 1.2em;
+        margin: 0;
+    }
+};
