@@ -6,7 +6,7 @@ font-family: 'Satisfy', cursive;
 font-family: 'Kaushan Script', cursive;
 font-family: 'Rock Salt', cursive;
 */
-
+/*header*/
 .clignot{
     
     text-shadow: red 2px 0px 8px;
@@ -162,23 +162,17 @@ h1{
     transition: all .3s;
     color: rgb(254, 254, 73);
 }
-#vide{
-    height: 355px;
-}
-.defileParent{
-    background-color: rgb(102, 144, 246);
-    color: whitesmoke;
-    height: 85px;
-    border-radius: 20px;
-    margin-top: 0;
-    font-weight: bold;
-    font-family: 'Kaushan Script', cursive;
-    border: 2px solid whitesmoke;
+/*main*/
 
-}
-.defileParent .defile{
-    margin-top: 10px;
-    
+.titre h2{
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    color: rgb(254, 234, 17);
+    font-size: 5em;
+    font-weight: bold;
+    text-shadow: rgba(0, 0, 0, 0.30) 4px 4px 3px;
+    padding: 200px 0 0 0;
+    text-decoration: underline;
 }
 .carousel{
     margin: auto !important;
@@ -189,14 +183,14 @@ h1{
     background-color: black;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-   width: 50px;
+    width: 50px;
 }
 
 .carousel-control-next{
     background-color: black;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-   width: 50px;
+    width: 50px;
 }
 .carousel-inner{
     border-radius: 20px;
@@ -218,6 +212,7 @@ h1{
     border-top-left-radius: 20px;
 
 }
+
 .card{
     text-align: center;
     margin: 200px auto ;
@@ -229,6 +224,9 @@ h1{
     background-color: rgb(99, 142, 254);
     border: 0;
 }
+
+/*footer*/
+
 footer{
     
     background-color: rgba(245, 245, 245, 0.5);
@@ -282,198 +280,3 @@ footer a{
     color: rgb(163, 163, 163);
     margin: 30px auto 50px auto;
 }
-
-
-@media only screen and (max-width: 740px){   
-    .numvert{
-        font-size: 0.9em;
-    }
-
-    .log{
-        font-size: 0.9em;
-    }
-
-    .sub{
-        font-size: 0.9em;
-    }
-
-    .logo{
-        display: none;
-    }
-
-    .nav{
-        margin: 0;
-    }
-
-    .nav ul{
-        padding: 0;
-        display: inline;
-        font-size: 0.8em;
-        margin: 40% 0 0 0;
-    }
-
-    .nav ul li{
-        padding: 0 15px 0 15px;
-    }
-
-    .videoHeader{
-        display: none;
-    }
-
-    h1{
-        font-size: 2.2em;
-        margin: 0;
-        padding: 120px 0 120px 0;
-    }
-
-    .bouton{   
-        font-size: 1em;
-    }
-
-    .mybuttons{
-        display: block;
-        width: 60%;
-        margin: 5px auto;
-    }
-
-    #vide{
-        display: none;
-    }
-
-    .defileParent{
-        display: none;
-    }
-
-    .carousel{
-        margin: 0 auto;
-        padding: 0;
-    }
-
-    .card{
-        margin: 0 auto 25px auto;
-        padding: 0;
-    }
-
-    .card img{
-        display: none;
-    }
-
-    .card .card-body .card-title{
-        font-size: 1.8em;
-    }
-
-    .card .card-body .card-text{
-        font-size: 1.1em;
-    }
-
-    .card .card-body a{
-        font-size: 0.9em;
-    }
-
-    footer{
-        margin: 110px auto 30px auto;
-    }
-
-    footer p{
-        font-size: 1em;
-    }
-
-    footer a{
-        font-size: 0.9em;
-    }
-
-    #suivie p{
-        font-size: 1.5em;
-        margin: 0;
-    }
-
-    .network a{
-        font-size: 1.4em;
-        margin: auto;
-    }
-
-    .copy p{
-        font-size: 0.7em;
-        margin: 0;
-    }
-};
-
-@media only screen and (min-width:740px) and (max-width: 1600px){
-    .logo{
-        display: none;
-    }
-    #vide{
-        display: none;
-    }
-
-    .nav{
-        margin: 0;
-    }
-
-    .nav ul{
-        font-size: 1.2em;
-        margin: 70% auto 10% auto;
-    }
-
-    .numvert{
-        font-size: 1em;
-    }
-
-    .log{
-        font-size: 1em;
-    }
-
-    .sub{
-        font-size: 1em;
-    }
-
-    h1{
-        font-size: 2.5em;
-    }
-
-    button{   
-        font-size: 1.1em;
-    }
-
-    #vide{
-        display: none;
-    }
-
-    .defileParent{
-        margin: 130px 0 0 0;
-        font-size: 0.7em;
-        padding: 10px 0 0 0;
-    }
-
-    .card{
-        margin: 0 auto;
-        padding: 0;
-    }
-
-    footer{
-        margin: 150px auto 10px auto;
-    }
-
-    footer p{
-        font-size: 1.8em;
-    }
-
-    footer a{
-        font-size: 1.2em;
-    }
-
-    #suivie p{
-        font-size: 1.9em;
-        margin: 0;
-    }
-
-    .network a{
-        font-size: 1.7em;
-        margin: auto;
-    }
-
-    .copy p{
-        font-size: 1.2em;
-        margin: 0;
-    }
-};
