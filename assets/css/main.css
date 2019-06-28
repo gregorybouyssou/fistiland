@@ -24,7 +24,6 @@ body{
 }
 
 button{
-    border: none !important;
     box-shadow: rgba(0, 0, 0, 0.51) 2px 2px 3px;
 }
 .logins{
@@ -82,13 +81,14 @@ video{
     height: auto;
     border-bottom-left-radius: 300% 200%;
     border-bottom-right-radius: 300% 200%;
+    border-bottom: 5px solid whitesmoke;
 }
 .logo{
     padding-top: 50px;
 }
 .logo img{
-    height: 150px;
-    width: 200px;
+    height: 170px;
+    width: 250px;
     display: block;
     margin: auto;
 }
@@ -140,6 +140,7 @@ h1{
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    
 }
 .bouton button{
     font-size: 1.4em;
@@ -150,6 +151,9 @@ h1{
     height: 35px;
     border-radius: 50px;
     transform: scale(1);
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    
 }
 
 .bouton button:hover{
@@ -166,9 +170,10 @@ h1{
     color: white;
     height: 85px;
     border-radius: 20px;
-    margin-top: 32px;
+    margin-top: 0;
     font-weight: bold;
     font-family: 'Kaushan Script', cursive;
+    border: 2px solid whitesmoke;
 
 }
 .defileParent .defile{
@@ -177,12 +182,26 @@ h1{
 }
 .carousel{
     margin: auto !important;
-    
    
+}
+
+.carousel-control-prev{
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+   width: 50px;
+}
+
+.carousel-control-next{
+    background-color: black;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+   width: 50px;
 }
 .carousel-inner{
     border-radius: 20px;
     margin-top: 200px;
+    
 }
 .carousel-inner .carousel-item h5{
     font-size: 3em;
@@ -242,8 +261,13 @@ footer a{
    
 .network a{
     font-size:2.5em;
+    transform: scale(1);
     margin: 5px 25px 25px 25px;
    
+}
+.network a:hover{
+    transform: scale(1.5);
+    transition: transform .3s ease-in-out;
 }
 #suivie{
     margin:0;
@@ -258,6 +282,7 @@ footer a{
     color: rgb(163, 163, 163);
     margin: 30px auto 50px auto;
 }
+
 
 @media only screen and (max-width: 740px){   
     .numvert{
@@ -373,8 +398,11 @@ footer a{
     }
 };
 
-@media only screen and (max-width: 1600px){
+@media only screen and (min-width:740px) and (max-width: 1600px){
     .logo{
+        display: none;
+    }
+    #vide{
         display: none;
     }
 
