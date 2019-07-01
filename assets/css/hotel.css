@@ -198,12 +198,15 @@ h1{
     
 }
 .carousel-inner .carousel-item h5{
+    padding: 50px;
+  
     font-size: 3em;
     font-family: 'Satisfy', cursive;
     font-weight: bold;
 }
 .carousel-inner .carousel-item p{
-    font-size: 1.5em;
+    font-size: 2em;
+    font-family: 'Satisfy', cursive;
 }
 .carousel-inner .card img{
     border-bottom-left-radius: 200px 50px;
@@ -217,13 +220,19 @@ h1{
     text-align: center;
     margin: 200px auto ;
     border-radius: 20px;
-    background-color: rgb(254, 234, 17)
+    background-color: rgb(254, 234, 17);
 
 }
+
 .card .btn {
     background-color: rgb(99, 142, 254);
-    border: 0;
+    border: 2px solid whitesmoke;
 }
+.card-text{
+    height: 300px;
+    width: 500px;
+}
+
 
 /*footer*/
 
