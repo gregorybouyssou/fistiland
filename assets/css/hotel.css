@@ -135,6 +135,7 @@ h1{
 }
 .bouton{
     display: inline;
+    padding: 20px 40px;
 }
 .mybuttons{
     display: flex;
@@ -148,18 +149,18 @@ h1{
     margin: 0 8px;
     background: linear-gradient(0.25turn, rgb(42, 130, 179), rgb(142, 219, 253));
     width: 200px;
-    height: 35px;
+    height: 50px;
     border-radius: 50px;
-    transform: scale(1);
+    transition: all .3s linear;
     color: whitesmoke;
     border: 2px solid whitesmoke;
+    
     
 }
 
 .bouton button:hover{
     background: linear-gradient(0.25turn, rgb(43, 178, 229), rgb(193, 243, 253));
     transform: scale(1.05);
-    transition: all .3s;
     color: rgb(254, 234, 17);
 }
 /*main*/
@@ -176,7 +177,7 @@ h1{
     font-size: 7em;
     font-weight: bold;
     text-shadow: rgba(0, 0, 0, 0.904) 8px 8px 6px;
-    background-image: url(../img/FR-bois-de-sycomore-700x330.jpg);
+    background-image: url(../img/old-barn-wood-background.jpg);
     display: inline-block;
     padding: 20px;
     border-radius: 20px;
@@ -239,6 +240,7 @@ h1{
     padding:  2% 5%;
     font-size: 1.5em;
     font-family: 'Satisfy', cursive;
+    border-radius: 50px;
 }
 .card-text{
     height: 300px;
@@ -250,7 +252,7 @@ h1{
 
 footer{
     
-    background-color: rgba(245, 245, 245, 0.5);
+    background-color:rgba(0, 0, 0, 0.466);
     width: 90%;
     margin: 200px auto 10px auto;
     padding: 20px 1%;
@@ -264,6 +266,7 @@ footer p{
     font-size: 3em;
     font-family: 'Satisfy', cursive;
     font-weight: bold;
+    color: whitesmoke;
 }
 footer a{
     display: block;

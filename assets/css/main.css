@@ -26,6 +26,7 @@ body{
 button{
     box-shadow: rgba(0, 0, 0, 0.51) 2px 2px 3px;
 }
+
 .logins{
     position: relative;
     height: auto;
@@ -127,7 +128,7 @@ video{
 h1{
     text-align: center;
     font-family: 'Satisfy', cursive;
-    color: rgb(254, 254, 73);
+    color: rgb(254, 234, 17);
     font-size: 4em;
     font-weight: bold;
     text-shadow: rgba(0, 0, 0, 0.30) 4px 4px 3px;
@@ -135,6 +136,7 @@ h1{
 }
 .bouton{
     display: inline;
+    padding: 20px 40px;
 }
 .mybuttons{
     display: flex;
@@ -148,19 +150,19 @@ h1{
     margin: 0 8px;
     background: linear-gradient(0.25turn, rgb(42, 130, 179), rgb(142, 219, 253));
     width: 200px;
-    height: 35px;
+    height: 50px;
     border-radius: 50px;
-    transform: scale(1);
+    transition: all .3s linear;
     color: whitesmoke;
     border: 2px solid whitesmoke;
+    
     
 }
 
 .bouton button:hover{
     background: linear-gradient(0.25turn, rgb(43, 178, 229), rgb(193, 243, 253));
     transform: scale(1.05);
-    transition: all .3s;
-    color: rgb(254, 254, 73);
+    color: rgb(254, 234, 17);
 }
 #vide{
     height: 355px;
@@ -222,16 +224,20 @@ h1{
     text-align: center;
     margin: 200px auto ;
     border-radius: 20px;
-    background-color: rgb(254, 234, 17)
+    background-color: rgb(254, 234, 17);
+    font-family: 'Satisfy', cursive;
 
 }
 .card .btn {
     background-color: rgb(99, 142, 254);
     border: 0;
+    border-radius: 50px;
+    border: 2px solid whitesmoke;
+    font-size: 1.3em;
 }
 footer{
     
-    background-color: rgba(245, 245, 245, 0.5);
+    background-color:rgba(0, 0, 0, 0.466);
     width: 90%;
     margin: 200px auto 10px auto;
     padding: 20px 1%;
@@ -245,6 +251,7 @@ footer p{
     font-size: 3em;
     font-family: 'Satisfy', cursive;
     font-weight: bold;
+    color: whitesmoke;
 }
 footer a{
     display: block;
