@@ -113,7 +113,8 @@ video{
     border-radius: 10px;
 }
 .dropdown-item:hover{
-    background-color: rgb(102, 144, 246);
+    background-color: rgb(102, 144 transform: scale(1.05);
+    transition: all .3s;246);
 }
 .nav ul{
     margin: 50px auto;
@@ -222,7 +223,6 @@ h1{
     border-bottom-right-radius: 200px 50px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-
 }
 
 .card{
@@ -241,6 +241,10 @@ h1{
     font-size: 1.5em;
     font-family: 'Satisfy', cursive;
     border-radius: 50px;
+}
+.card .btn:hover{
+    transform: scale(1.05);
+    transition: all .3s;
 }
 
 .card-text{
