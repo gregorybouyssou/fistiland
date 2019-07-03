@@ -19,17 +19,17 @@ body{
     background-image: url(../img/bg_main.jpg);
     background-size: cover;
     background-attachment: fixed;
-
-    
 }
 
 button{
     box-shadow: rgba(0, 0, 0, 0.51) 2px 2px 3px;
 }
+
 .logins{
     position: relative;
     height: auto;
 }
+
 .log, .numvert, .sub {
     position: absolute;
     color: whitesmoke;
@@ -242,6 +242,7 @@ h1{
     font-family: 'Satisfy', cursive;
     border-radius: 50px;
 }
+
 .card-text{
     height: 300px;
     
