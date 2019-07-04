@@ -50,7 +50,7 @@ button{
 }
 .log{
     top: 30px;
-    right: 50px;
+    right: 20px;
 }
 .log a, .sub a{
     color: whitesmoke;
@@ -66,7 +66,7 @@ button{
 }
 .sub{
     top: 30px;
-    right: 120px;
+    right: 200px;
 }
 .videoHeader{
     position: relative;
@@ -113,8 +113,9 @@ video{
     border-radius: 10px;
 }
 .dropdown-item:hover{
-    background-color: rgb(102, 144 transform: scale(1.05);
-    transition: all .3s;246);
+    background-color: rgb(102, 144 246);
+    transform: scale(1.05);
+    transition: all .3s;
 }
 .nav ul{
     margin: 50px auto;
@@ -316,10 +317,13 @@ footer a{
 
     .log{
         font-size: 0.9em;
+        
     }
+    
 
     .sub{
         font-size: 0.9em;
+        right: 120px;
     }
 
     .logo{
@@ -344,7 +348,7 @@ footer a{
     }
 
     .nav ul li{
-        padding: 0 15px 0 15px;
+        padding: 0 10px;
     }
 
     .videoHeader{
@@ -359,6 +363,7 @@ footer a{
 
     .bouton{   
         font-size: 1em;
+        padding: 30px 0px;
     }
 
     .mybuttons{
