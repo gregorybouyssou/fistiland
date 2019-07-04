@@ -1,0 +1,170 @@
+.card{
+    width: 80rem;
+    height: 135rem;
+    border: 5px solid whitesmoke;
+    
+}
+.card h5{
+    font-size: 3em;
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    margin:80px;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    color:whitesmoke;
+    font-size: 5em;
+    font-weight: bold;
+    text-shadow: rgba(0, 0, 0, 0.904) 8px 8px 6px;
+    background-image: url(../img/old-barn-wood-background.jpg);
+    display: inline-block;
+    padding: 30px;
+    border-radius: 20px;
+    border: 4px solid whitesmoke;
+    
+}
+.card p{
+    padding: 40px;
+    margin: 40px 80px 100px 80px;
+    font-size: 2.5em;
+    font-family: 'Satisfy', cursive;
+    border-radius: 20px;
+    border: 5px solid whitesmoke;
+    height: 600px;
+    text-align: justify;
+    
+}
+.carousel-inner{
+    margin: 0;
+    border-bottom-left-radius: 300% 200%;
+    border-bottom-right-radius: 300% 200%;
+    border-bottom: 5px solid whitesmoke;
+    border-top-left-radius: 20px;
+}
+.carousel-control-prev{
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 50px;
+}
+
+    .carousel-control-prev{
+        background-color: rgba(0, 0, 0, 0);
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        width: 50px;
+    }
+    
+    .carousel-control-next{
+        background-color: rgba(0, 0, 0, 0);
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        width: 50px;
+    }
+   
+    .card .btn{
+        font-size: 2em;
+        font-weight: bold;
+        border: 3px solid whitesmoke;
+        text-shadow: rgba(0, 0, 0, 0.904) 8px 8px 6px;
+    }
+
+    @media only screen and (max-width: 740px){
+        .nav{
+            height: 200px;
+        }
+
+        h1{
+            padding: 20px;
+        }
+
+        .bouton{
+            padding: 30px 0px;
+        }
+
+        .col{
+            margin-top: 30px;
+        }
+
+        .carousel-inner{
+            display: none;
+        }
+
+        .carousel-control-prev{
+            display: none;
+        }
+
+        .carousel-control-next{
+            display: none;
+        }
+
+        .card{   
+            width: 20rem;
+            height: auto;
+            border: 5px solid whitesmoke; 
+        } 
+        
+       .card-title{
+            margin: 20px !important;
+            display: flex;
+            align-content: center;
+        }
+
+        .card h5{
+            font-family: 'Satisfy', cursive;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        .card p{
+            font-size: 1em;
+            font-family: 'Satisfy', cursive;
+            height: auto;
+            margin: 0;     
+        }
+        .card .btn{ 
+            margin: auto;
+            font-size: 1.5em;
+            font-weight: bold;
+            border: 3px solid whitesmoke;
+            text-shadow: rgba(0, 0, 0, 0.904) 8px 8px 6px;
+        }  
+    }
+
+    @media only screen and (min-width:740px) and (max-width: 1600px){
+        
+        .card{
+            width: 40rem;
+            height: 150rem;
+            border: 5px solid whitesmoke;
+        } 
+        
+        .card h5{     
+            font-family: 'Satisfy', cursive;
+            font-weight: bold;  
+            font-size: 3em;
+        }
+
+        .card p{
+            font-size: 2em;
+            font-family: 'Satisfy', cursive;
+            height: 120px;
+            height: 35em;
+            margin: 40px 80px 100px 80px;
+        }
+
+        .card-text{
+            margin: 0;
+        }
+
+        .card .btn{ 
+            margin: 40px 80px 200px 80px;
+            font-size: 1.5em;
+            font-weight: bold;
+            border: 3px solid whitesmoke;
+            text-shadow: rgba(0, 0, 0, 0.904) 8px 8px 6px;
+        }
+      
+    }

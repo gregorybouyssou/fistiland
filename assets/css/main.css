@@ -172,8 +172,8 @@ h1{
     color: whitesmoke;
     height: 85px;
     border-radius: 20px;
-    margin-top: 0;
-    font-weight: bold;
+    margin-top: 0px 40px 0;
+    font-weight: 0px 40px bold;
     font-family: 'Kaushan Script', cursive;
     border: 2px solid whitesmoke;
 
@@ -305,9 +305,14 @@ footer a{
     }
 
     .logo{
-        display: none;
-    }
+        padding-top: 120px;
+   }
 
+   .logo img{
+       width: 140px;
+       height: 100px;
+   }
+   
     .nav{
         margin: 0;
     }
@@ -330,11 +335,12 @@ footer a{
     h1{
         font-size: 2.2em;
         margin: 0;
-        padding: 120px 0 120px 0;
+        padding: 70px 0 50px 0;
     }
 
     .bouton{   
         font-size: 1em;
+        padding: 0px;
     }
 
     .mybuttons{
@@ -363,6 +369,7 @@ footer a{
 
     .card img{
         display: none;
+        padding: 0;
     }
 
     .card .card-body .card-title{

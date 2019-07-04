@@ -360,7 +360,9 @@ footer a{
         margin: 0;
         padding: 120px 0 120px 0;
     }
-
+    .titre h2{
+        font-size: 3em;
+    }
     .bouton{   
         font-size: 1em;
         padding: 30px 0px;
